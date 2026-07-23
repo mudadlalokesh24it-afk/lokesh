@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>M Lokesh</h1>
+        <p>B.Tech IT Student | ANITS Engineering College</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am <b>M Lokesh</b>, a B.Tech Information Technology student at
+            ANITS Engineering College. I am interested in Web Development,
+            Java Programming, HTML, CSS, JavaScript, and Python.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>B.Tech</h3>
+            <p>ANITS Engineering College</p>
+        </div>
+
+        <div class="card">
+            <h3>10th Class</h3>
+            <p>Surya High School, Srikakulam</p>
+            <p>Marks: 520</p>
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <textarea id="message" placeholder="Enter Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>Email: mudadlalokesh.24.it@anits.edu.in</p>
+        <p>© 2026 M Lokesh</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
